@@ -10,6 +10,6 @@ export class AppComponent implements OnInit{
   title: string;
   
   ngOnInit() {
-    this.title = isInDevMode ? 'App in dev mode works.' : 'App is prod mode works.'
+    this.title = isInDevMode() ? 'App in dev mode works.' : 'App is prod mode works.'
   }
 }
