@@ -1,3 +1,5 @@
 import { isDevMode } from '@angular/core';
 
-export const isInDevMode = isDevMode();
+export function isInDevMode():boolean {
+    return isDevMode();
+};
